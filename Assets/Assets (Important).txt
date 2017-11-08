@@ -1,0 +1,41 @@
+Pink Coach Project : 
+	
+Header:
+	Font: Quicksand Meduim 
+	Color: #7a4db5
+	Boutton Color: #3ecf8e
+	Font Size: 10.18px (Boutton) 15px (for classes navigation)
+
+Box 1: 
+	Font: Quicksand Meduim 
+	Background color: Gradient color (#f42e78 #c17afc Linear 132°) Rectangle RGB color( R:126, G:67, B:170, Transparency 0.3)
+	Font Size: 50,55 px (Title) 20 px (Description) 18,21 px (Button)
+	Border color (Button): Gradient color ( #7e43aa, #6681ea, Linear, 108° )
+
+Box 2: 
+	Font: Quicksand Meduim 
+	Font Size: 25 px (SubTitle) 15 px (Descriptions) 20 px (titles) 18,21 px (Button)
+	Border color (Button): Gradient color ( #7e43aa, #6681ea, Linear, 108° )
+	Font color: #7a4eb5 (SubTitle + Titles)
+
+Box 3: 
+	Font: Quicksand Meduim + Bold
+	Font Size: 30 px (SubTitle) 15 px (Descriptions) 20 px 'bold' (Personne)
+	Rectangle color (Button): RGB color( R:126, G:67, B:170, Transparency 0.2)
+	Circles + Font color: #7a4eb5
+
+Box 4: 
+	Font: Quicksand Meduim 
+	Font Size: 25 px (SubTitle) 15 px (Descriptions) 20 px (titles) 18,21 px (Button)
+	Border color (Button): Gradient color ( #7e43aa, #6681ea, Linear, 108° )
+	Font color: #7a4eb5 (SubTitle + Titles)
+
+Box 5: 
+	Font: Quicksand Meduim 
+	Background color: Gradient color (#f42e78 #c17afc Linear 132°) Rectangle RGB color( R:126, G:67, B:170, Transparency 0.3)
+	Font Size: 30 px (SubTitle) 17 px (Description) 
+	Border color (Button): Gradient color ( #7e43aa, #6681ea, Linear, 108° )
+
+Box 6 (Footer):
+	Font: uicksand Meduim 
+	Font Color: #581486
