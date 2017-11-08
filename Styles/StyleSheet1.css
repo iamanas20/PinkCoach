@@ -1,0 +1,26 @@
+﻿body {
+    padding: 0 0 0 0;
+}
+
+#header {
+    width: 100%;
+    height: 80px;
+    border: 1px solid red
+}
+
+#headerElementTopContainer {
+    margin-top: 18px;
+}
+
+#logo {
+    position: absolute;
+    margin-left: 10%;
+}
+
+#navigationElements{
+    margin-left: 30%;
+}
+
+#navigationElements > #navigationLinks > li{
+    font-size: 13px;
+}
