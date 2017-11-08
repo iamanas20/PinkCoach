@@ -1,3 +1,46 @@
 ﻿body
 {
+  font-family: 'Quicksand';
+}
+
+.Box2 h3
+{
+  font-size: 25px;
+  color: #7a4eb5;
+  vertical-align: middle;
+  text-align: center;
+}
+
+#des
+{
+  font-weight:500;
+  font-size: 15 px;
+  color: black;
+  text-align: center;
+  margin-left: 369px;
+  margin-right: 369px;
+}
+
+.art1
+{
+  border: solid 0px;
+  margin-left: 203px;
+  margin-right: 914px;
+}
+
+.art1:hover
+{
+  border: solid 4px ;
+  border-color: -webkit-linear-gradient(-18deg, #b465da, #cf6cc9, #ee609c, #ee609c);
+}
+.art1 h4
+{
+  font-weight: 800;
+  font-size: 20px;
+  color: #7a4eb5;
+}
+
+#cont
+{
+
 }
