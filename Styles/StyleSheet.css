@@ -30,8 +30,10 @@
 
 .art1:hover
 {
-  border: solid 4px ;
-  border-color: -webkit-linear-gradient(-18deg, #b465da, #cf6cc9, #ee609c, #ee609c);
+  border: solid 4px  #b465da;
+  /*background: linear-gradient(-18deg, #b465da, #cf6cc9, #ee609c, #ee609c);
+  -webkit-border-image: -webkit-linear-gradient( #b465da, #cf6cc9, #ee609c, #ee609c) 1 100%;*/
+
 }
 .art1 h4
 {
