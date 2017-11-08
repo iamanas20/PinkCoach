@@ -33,7 +33,7 @@
   border: solid 4px  #b465da;
   /*background: linear-gradient(-18deg, #b465da, #cf6cc9, #ee609c, #ee609c);
   -webkit-border-image: -webkit-linear-gradient( #b465da, #cf6cc9, #ee609c, #ee609c) 1 100%;*/
-
+  border-radius: 10px;
 }
 .art1 h4
 {
@@ -44,5 +44,22 @@
 
 #cont
 {
+  text-align: center;
+}
 
+.Box2 a{
+  color: white;
+  background: linear-gradient(108deg, #6681ea, #7e43aa);
+  border: solid 0.35px black;
+  text-align: center;
+  vertical-align: middle;
+  padding: 10px 25px;
+/*  -webkit-border-radius: 6px;
+/*  padding-left: 15px;
+  padding-right: 15px;*/
+  text-shadow: 0 2px 5px -6px rgba(0, 0, 0, 0.70);
+  border-radius: 15px;
+  -webkit-box-shadow: 0px 5px 11px -6px rgba(0,0,0,0.54);
+  font-size: 18.21px;
+  font-weight: 600;
 }
