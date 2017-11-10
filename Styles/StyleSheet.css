@@ -1,0 +1,74 @@
+﻿body
+{
+  font-family: 'Quicksand';
+}
+
+.Box2 h3
+{
+  font-size: 25px;
+  color: #7a4eb5;
+  vertical-align: middle;
+  text-align: center;
+}
+
+#des
+{
+  font-weight:500;
+  font-size: 15 px;
+  color: black;
+  text-align: center;
+  margin-left: 369px;
+  margin-right: 369px;
+}
+
+.art1
+{
+  border: solid 0px;
+  margin-left: 203px;
+  margin-right: 914px;
+}
+
+.art1:hover
+{
+  border: solid 4px  #b465da;
+  /*background: linear-gradient(-18deg, #b465da, #cf6cc9, #ee609c, #ee609c);
+  -webkit-border-image: -webkit-linear-gradient( #b465da, #cf6cc9, #ee609c, #ee609c) 1 100%;*/
+  border-radius: 10px;
+}
+.art1 h4
+{
+  font-weight: 800;
+  font-size: 20px;
+  color: #7a4eb5;
+}
+
+#cont
+{
+  text-align: center;
+}
+
+#but{
+  color: white;
+  background: linear-gradient(108deg, #6681ea, #7e43aa);
+  border: solid 0.35px black;
+  text-align: center;
+  vertical-align: middle;
+    cursor: pointer;
+    display: inline-block;
+
+  padding: 5px 25px;
+/*  -webkit-border-radius: 6px;
+/*  padding-left: 15px;
+  padding-right: 15px;*/
+  text-shadow: 0px 5px 11px 3px rgba(0,0,0,0.54);
+  border-radius: 15px;
+  -webkit-box-shadow: 0px 5px 11px -6px rgba(0,0,0,0.54);
+  font-size: 18.21px;
+  font-weight: 600;
+}
+
+#but:hover
+{
+  text-shadow: 0px 5px 5px 20px rgba(0,0,0,0.80);
+
+}
