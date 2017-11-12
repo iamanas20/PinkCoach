@@ -27,17 +27,19 @@
 
 
 
-#asdf {
+/*#asdf {
     width: 1560px;
     height: 720px;
     background: linear-gradient(132deg, #f42e78, #c17afc);
     font-family: 'Quicksand', sans-serif;
     position:absolute;
+	transform: rotate(-6deg) skew(-6deg);
 }
 #asdf2 {
     width: 1740px;
     height: 500px;
     background-color: rgba(126,67,170,0.3);
     position: absolute;
+	transform: rotate(-15deg) skew(-15deg);
     
-}
+}*/
