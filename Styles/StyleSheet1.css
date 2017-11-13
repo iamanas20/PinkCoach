@@ -53,8 +53,6 @@ body {
     min-width: 500px;
 }
 
-
-
 .art h4 {
     text-shadow: 0px 2px 1px rgba(0, 0, 0, 0.5);
     text-align: center;
@@ -68,10 +66,8 @@ body {
 
 
 .art img {
-    display: block;
-    text-align: center;
-    vertical-align: middle;
-    margin-left: 42%;
+margin-left: 47%;
+
 }
 
 .art p {
@@ -80,7 +76,7 @@ body {
     color: rgba(0, 0, 0, 0.70);
     min-width: 500px;
 }
-.butt
+.btt
 {
   text-align: center;
   vertical-align: middle;
@@ -96,13 +92,15 @@ body {
     text-shadow: 0px 3px 10px rgba(0,0,0,0.50);
     border-radius: 20px;
     font-size: 18.21px;
-    font-weight: 400;
+    font-weight: 500;
     box-shadow: 0px 2px 6px 0px rgba(0,0,0,0.50);
+
 }
 
-    #but:hover {
-        text-shadow: 0 2px 5px 0 rgba(0,0,0,.16);
-    }
+
+#but:hover {
+    text-shadow: 0 2px 10px 0 rgba(0,0,0,.80);
+}
 
 .waves-effect {
 }
