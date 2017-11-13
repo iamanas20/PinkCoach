@@ -17,17 +17,31 @@
     margin-left: 10%;
 }
 
-#navigationElements{
+#navigationElements {
     margin-left: 30%;
 }
 
-#navigationElements > #navigationLinks > li{
-    font-size: 13px;
-}
+    #navigationElements > #navigationLinks > li {
+        font-size: 14px;
+        font-style: oblique;
+        font-weight: 600;
+    }
 
-body {
-    font-family: 'Segoe UI';
-}
+        #navigationElements > #navigationLinks > li a {
+            color: #7a4db5;
+            font-family: 'Quicksand', sans-serif;
+        }
+
+    #navigationElements #navigationButtonsContainer {
+        float: right;
+        margin-top: -39px;
+        font-family: 'Quicksand', sans-serif;
+        margin-right: 10%
+    }
+
+    #navigationElements #navigationButtonsContainer {
+        
+    }
 
 .Box2 h3 {
     font-size: 25px;
@@ -52,7 +66,6 @@ body {
     color: rgba(0, 0, 0, 0.70);
     min-width: 500px;
 }
-
 
 
 .art h4 {
@@ -80,15 +93,14 @@ body {
     color: rgba(0, 0, 0, 0.70);
     min-width: 500px;
 }
-.butt
-{
-  text-align: center;
-  vertical-align: middle;
-  display: block;
+
+.butt {
+    text-align: center;
+    vertical-align: middle;
+    display: block;
 }
 
 #but {
-
     margin-top: 50px;
     color: white;
     background: linear-gradient(150deg, #6681ea, #7e43aa);
