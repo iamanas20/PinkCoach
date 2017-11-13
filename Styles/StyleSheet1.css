@@ -44,12 +44,13 @@ body {
 
 #des {
     font-weight: 500;
-    font-size: 15 px;
+    font-size: 15px;
     color: black;
     text-align: center;
     margin-left: 369px;
     margin-right: 369px;
     color: rgba(0, 0, 0, 0.70);
+    min-width: 500px;
 }
 
 
@@ -79,14 +80,15 @@ body {
     color: rgba(0, 0, 0, 0.70);
     min-width: 500px;
 }
-
 .butt
 {
   text-align: center;
   vertical-align: middle;
   display: block;
 }
+
 #but {
+
     margin-top: 50px;
     color: white;
     background: linear-gradient(150deg, #6681ea, #7e43aa);
@@ -94,7 +96,7 @@ body {
     text-shadow: 0px 3px 10px rgba(0,0,0,0.50);
     border-radius: 20px;
     font-size: 18.21px;
-    font-weight: 500;
+    font-weight: 400;
     box-shadow: 0px 2px 6px 0px rgba(0,0,0,0.50);
 }
 
