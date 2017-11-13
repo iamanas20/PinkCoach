@@ -61,6 +61,7 @@ body {
     font-size: 20px;
     padding: 5px 200px;
     color: #7a4eb5;
+    min-width: 500px;
 }
 
 
@@ -76,19 +77,25 @@ body {
     text-align: center;
     padding: 5px 200px;
     color: rgba(0, 0, 0, 0.70);
+    min-width: 500px;
 }
 
+.butt
+{
+  text-align: center;
+  vertical-align: middle;
+  display: block;
+}
 #but {
     margin-top: 50px;
     color: white;
     background: linear-gradient(150deg, #6681ea, #7e43aa);
     padding: 5px 25px;
-    text-shadow: 0px 3px 10px rgba(0,0,0,0.75);
+    text-shadow: 0px 3px 10px rgba(0,0,0,0.50);
     border-radius: 20px;
     font-size: 18.21px;
-    font-weight: 600;
+    font-weight: 500;
     box-shadow: 0px 2px 6px 0px rgba(0,0,0,0.50);
-    margin-left: 10%;
 }
 
     #but:hover {
@@ -97,3 +104,23 @@ body {
 
 .waves-effect {
 }
+
+}
+
+
+/*#asdf {
+    width: 1560px;
+    height: 720px;
+    background: linear-gradient(132deg, #f42e78, #c17afc);
+    font-family: 'Quicksand', sans-serif;
+    position:absolute;
+	transform: rotate(-6deg) skew(-6deg);
+}
+#asdf2 {
+    width: 1740px;
+    height: 500px;
+    background-color: rgba(126,67,170,0.3);
+    position: absolute;
+	transform: rotate(-15deg) skew(-15deg);
+
+}*/
