@@ -17,31 +17,17 @@
     margin-left: 10%;
 }
 
-#navigationElements {
+#navigationElements{
     margin-left: 30%;
 }
 
-    #navigationElements > #navigationLinks > li {
-        font-size: 14px;
-        font-style: oblique;
-        font-weight: 600;
-    }
+#navigationElements > #navigationLinks > li{
+    font-size: 13px;
+}
 
-        #navigationElements > #navigationLinks > li a {
-            color: #7a4db5;
-            font-family: 'Quicksand', sans-serif;
-        }
-
-    #navigationElements #navigationButtonsContainer {
-        float: right;
-        margin-top: -39px;
-        font-family: 'Quicksand', sans-serif;
-        margin-right: 10%
-    }
-
-    #navigationElements #navigationButtonsContainer {
-        
-    }
+body {
+    font-family: 'Segoe UI';
+}
 
 .Box2 h3 {
     font-size: 25px;
@@ -67,7 +53,6 @@
     min-width: 500px;
 }
 
-
 .art h4 {
     text-shadow: 0px 2px 1px rgba(0, 0, 0, 0.5);
     text-align: center;
@@ -81,10 +66,8 @@
 
 
 .art img {
-    display: block;
-    text-align: center;
-    vertical-align: middle;
-    margin-left: 42%;
+margin-left: 47%;
+
 }
 
 .art p {
@@ -93,14 +76,15 @@
     color: rgba(0, 0, 0, 0.70);
     min-width: 500px;
 }
-
-.butt {
-    text-align: center;
-    vertical-align: middle;
-    display: block;
+.btt
+{
+  text-align: center;
+  vertical-align: middle;
+  display: block;
 }
 
 #but {
+
     margin-top: 50px;
     color: white;
     background: linear-gradient(150deg, #6681ea, #7e43aa);
@@ -108,33 +92,42 @@
     text-shadow: 0px 3px 10px rgba(0,0,0,0.50);
     border-radius: 20px;
     font-size: 18.21px;
-    font-weight: 400;
+    font-weight: 500;
     box-shadow: 0px 2px 6px 0px rgba(0,0,0,0.50);
+
 }
 
-    #but:hover {
-        text-shadow: 0 2px 5px 0 rgba(0,0,0,.16);
-    }
+
+#but:hover {
+    text-shadow: 0 2px 10px 0 rgba(0,0,0,.80);
+}
 
 .waves-effect {
 }
 
 }
 
-
-/*#asdf {
-    width: 1560px;
-    height: 720px;
-    background: linear-gradient(132deg, #f42e78, #c17afc);
-    font-family: 'Quicksand', sans-serif;
-    position:absolute;
-	transform: rotate(-6deg) skew(-6deg);
+.centered{
+	overflow: hidden;
+	z-index: -1;
 }
-#asdf2 {
-    width: 1740px;
-    height: 500px;
-    background-color: rgba(126,67,170,0.3);
+#stripes {
+	left:-5%;
+    width: 110%;
+    height: 100%;
+    overflow: hidden;
+    transform: skewY(-6deg);
+	transform-origin: 0;
+    background: linear-gradient(132deg,#c17afc,#f42e78);
+}
+#stripes, #stripes span {
     position: absolute;
-	transform: rotate(-15deg) skew(-15deg);
-
-}*/
+}
+#hell{
+		left:-5%;
+		width:110%;
+		height:90%;
+    top: 10%;
+		transform: rotate(-6deg) skew(-6deg);
+   	background-color: rgba(126,67,170,0.3);
+}
