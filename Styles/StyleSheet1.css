@@ -97,23 +97,29 @@ body {
 
 .waves-effect {
 }
+
+
+.centered{
+	overflow: hidden;
+	z-index: -1;
 }
-
-
-
-/*#asdf {
-    width: 1560px;
-    height: 720px;
-    background: linear-gradient(132deg, #f42e78, #c17afc);
-    font-family: 'Quicksand', sans-serif;
-    position:absolute;
-	transform: rotate(-6deg) skew(-6deg);
+#stripes {
+	left:-5%;
+    width: 110%;
+    height: 100%;
+    overflow: hidden;
+    transform: skewY(-6deg);
+	transform-origin: 0;
+    background: linear-gradient(132deg,#c17afc,#f42e78);
 }
-#asdf2 {
-    width: 1740px;
-    height: 500px;
-    background-color: rgba(126,67,170,0.3);
+#stripes, #stripes span {
     position: absolute;
-	transform: rotate(-15deg) skew(-15deg);
-    
-}*/
+}
+#hell{
+		left:-5%;
+		width:110%;
+		height:90%;
+    top: 10%;
+		transform: rotate(-6deg) skew(-6deg);
+   	background-color: rgba(126,67,170,0.3);
+}
