@@ -1,36 +1,11 @@
-﻿body {
-    padding: 0 0 0 0;
+body
+{
+	font-family: 'Quicksand';
 }
-
-#header {
-    width: 100%;
-    height: 80px;
-    border: 1px solid red;
+#navbar{
+	background: #fff;
+	margin-bottom: 0px
 }
-
-#headerElementTopContainer {
-    margin-top: 18px;
-}
-
-#logo {
-    position: absolute;
-    margin-top: 4px;
-    margin-left: 10%;
-}
-
-#navigationElements{
-    margin-left: 30%;
-}
-
-    #navigationElements > #navigationLinks > li {
-        font-size: 15px;
-        font-weight: 600;
-    }
-
-        #navigationElements > #navigationLinks > li a {
-            color: #7a4eb5;
-            font-family: 'Quicksand', sans-serif;
-        }
 
         #navigationElements > #navigationButtonContainer{
             float: right;
@@ -59,11 +34,51 @@
                 border-radius: 20px;
                 width: 80px;
             }
-
-body {
-    font-family: 'Segoe UI';
+.content{
+	margin-top: 0px;
+	padding-top: 80px;
+	padding-bottom: 80px;
+	font-size: 24px;
+	text-align: left;
+	position: relative;
+	color: #fff;
+	text-align: center;
+  background: linear-gradient(132deg,#c17afc,#f42e78);
+	overflow: hidden;
+	height: 768px;
 }
 
+#hell{
+	left:-5%;
+	width:110%;
+	height:90%;
+    top: 10%;
+	transform: rotate(-6deg) skew(-6deg);
+   	background-color: rgba(126,67,170,0.3);
+   	position: absolute;
+}
+#container{
+	text-align: center;
+}
+
+#but {
+
+    margin-top: 50px;
+    color: white;
+    background: linear-gradient(150deg, #6681ea, #7e43aa);
+    padding: 5px 25px;
+    text-shadow: 0px 3px 10px rgba(0,0,0,0.50);
+    border-radius: 20px;
+    font-size: 18.21px;
+    font-weight: 400;
+    box-shadow: 0px 1px 3px 0px rgba(0,0,0,0.50);
+
+}
+
+
+#but:selection {
+    text-shadow: 0px 2px 10px 0px rgba(0,0,0,.80);
+}
 .Box2 h3 {
     font-size: 25px;
     font-weight: 900;
@@ -85,7 +100,7 @@ body {
     margin-left: 369px;
     margin-right: 369px;
     color: rgba(0, 0, 0, 0.70);
-    min-width: 500px;
+    min-width: 200px;
 }
 
 .art h4 {
@@ -99,69 +114,64 @@ body {
 }
 
 
-
-.art img {
-margin-left: 47%;
-
+.col-lg-4 img
+{
+	text-align: center;
+	vertical-align: middle;
+	display: block;
+	margin-left: 40%;
 }
 
-.art p {
-    text-align: center;
-    padding: 5px 200px;
-    color: rgba(0, 0, 0, 0.70);
-    min-width: 500px;
+.col-lg-4
+{
+	min-width: 600px;
+	padding-right: 200px;
+	padding-left: 200px;
+	text-align: center;
+}
+
+.box1
+{
+	text-align: center;
+	vertical-align: middle;
+	margin-left: 32%;
+	margin-top: 10%;
+	position: absolute;
+}
+
+.box1 h1
+{
+	text-shadow: 0px 2px 8px rgba(0, 0, 0, 0.4);
+	margin-bottom: 5%;
+}
+
+.box1 span
+{
+	font-size: 18px;
+	text-shadow: 0px 3px 5px rgba(0, 0, 0, 0.5);
 }
 .btt
 {
-  text-align: center;
-  vertical-align: middle;
-  display: block;
+	text-align: center;
+	vertical-align: middle;
 }
 
-#but {
-
-    margin-top: 50px;
-    color: white;
-    background: linear-gradient(150deg, #6681ea, #7e43aa);
-    padding: 5px 25px;
-    text-shadow: 0px 3px 10px rgba(0,0,0,0.50);
-    border-radius: 20px;
-    font-size: 18.21px;
-    font-weight: 500;
-    box-shadow: 0px 2px 6px 0px rgba(0,0,0,0.50);
+.col-lg-4 h4 {
+    text-shadow: 0px 2px 1px rgba(0, 0, 0, 0.5);
+ 		text-align: center;
+    font-weight: 800;
+    font-size: 20px;
+  /*  padding: 5px 200px;*/
+    color: #7a4eb5;
+    /*min-width: 700px;*/
 }
 
-#but:hover {
-    text-shadow: 0 2px 10px 0 rgba(0,0,0,.80);
-}
-
-.waves-effect {
-}
-
-.centered{
-	overflow: hidden;
-	z-index: -1;
-}
-
-#stripes {
-	left:-5%;
-    width: 110%;
-    height: 100%;
-    overflow: hidden;
-    transform: skewY(-6deg);
-	transform-origin: 0;
-    background: linear-gradient(132deg,#c17afc,#f42e78);
-}
-
-#stripes, #stripes span {
-    position: absolute;
-}
-
-#hell{
-		left:-5%;
-		width:110%;
-		height:90%;
-    top: 10%;
-		transform: rotate(-6deg) skew(-6deg);
-   	background-color: rgba(126,67,170,0.3);
+.col-lg-12 h3
+{
+	    font-size: 25px;
+	    font-weight: 900;
+	    text-shadow: 0px 2px 5px rgba(0,0,0,0.20);
+	    color: #7a4eb5;
+	    vertical-align: middle;
+	    text-align: center;
 }
