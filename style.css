@@ -1,0 +1,29 @@
+#navbar{
+	background: #fff;
+	margin-bottom: 0px
+}
+.content{
+	margin-top: 0px;
+	padding-top: 80px;
+	padding-bottom: 80px;
+	font-size: 24px;
+	text-align: left;
+	position: relative;
+	color: #fff;
+	text-align: center;
+    background: linear-gradient(132deg,#c17afc,#f42e78);
+	overflow: hidden;
+}
+
+#hell{
+	left:-5%;
+	width:110%;
+	height:90%;
+    top: 10%;
+	transform: rotate(-6deg) skew(-6deg);
+   	background-color: rgba(126,67,170,0.3);
+   	position: absolute;
+}
+#container{
+	text-align: center;
+}
