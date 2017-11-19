@@ -87,3 +87,88 @@ body {
 #container {
     text-align: center;
 }
+#but {
+    margin-top: 50px;
+    color: white;
+    background: linear-gradient(150deg, #6681ea, #7e43aa);
+    padding: 5px 25px;
+    text-shadow: 0px 3px 10px rgba(0,0,0,0.50);
+    border-radius: 20px;
+    font-size: 18.21px;
+    font-weight: 400;
+    box-shadow: 0px 1px 3px 0px rgba(0,0,0,0.50);
+}
+
+
+    #but:selection {
+        text-shadow: 0px 2px 10px 0px rgba(0,0,0,.80);
+    }
+
+.Box2 h3 {
+    font-size: 25px;
+    font-weight: 900;
+    text-shadow: 0px 2px 5px rgba(0,0,0,0.20);
+    color: #7a4eb5;
+    vertical-align: middle;
+    text-align: center;
+}
+
+.Box2 {
+    border: solid 0px;
+}
+
+#des {
+    font-weight: 500;
+    font-size: 15px;
+    color: black;
+    text-align: center;
+    margin-left: 369px;
+    margin-right: 369px;
+    color: rgba(0, 0, 0, 0.70);
+    min-width: 200px;
+}
+
+.art h4 {
+    text-shadow: 0px 2px 1px rgba(0, 0, 0, 0.5);
+    text-align: center;
+    font-weight: 800;
+    font-size: 20px;
+    padding: 5px 200px;
+    color: #7a4eb5;
+    min-width: 500px;
+}
+
+
+.col-lg-4 img {
+    text-align: center;
+    vertical-align: middle;
+    display: block;
+    margin-left: 40%;
+}
+
+.col-lg-4 {
+    min-width: 600px;
+    padding-right: 200px;
+    padding-left: 200px;
+    text-align: center;
+}
+
+
+.col-lg-4 h4 {
+    text-shadow: 0px 2px 1px rgba(0, 0, 0, 0.5);
+    text-align: center;
+    font-weight: 800;
+    font-size: 20px;
+    /*  padding: 5px 200px;*/
+    color: #7a4eb5;
+    /*min-width: 700px;*/
+}
+
+.col-lg-12 h3 {
+    font-size: 25px;
+    font-weight: 900;
+    text-shadow: 0px 2px 5px rgba(0,0,0,0.20);
+    color: #7a4eb5;
+    vertical-align: middle;
+    text-align: center;
+}
