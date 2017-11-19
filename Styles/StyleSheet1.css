@@ -82,8 +82,12 @@ body {
     transform: rotate(-6deg) skew(-6deg);
     background-color: rgba(126,67,170,0.3);
     position: absolute;
+    z-index:0;
 }
-
+#stripes{
+    position:relative;
+    z-index:1;
+}
 #container {
     text-align: center;
 }
