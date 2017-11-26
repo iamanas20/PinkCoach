@@ -74,7 +74,7 @@ body {
     text-align: center;
     background: linear-gradient(132deg,#c17afc,#f42e78);
     overflow: hidden;
-    height: 628px;
+    height: 728px;
 }
 
 #hell {
@@ -90,7 +90,8 @@ body {
 #stripes {
     position: relative;
     z-index: 1;
-    text-shadow: 0px 5px 10px rgba(0, 0, 0, 0.33);
+    text-shadow: 0px 3px 5px rgba(0, 0, 0, 0.33);
+    margin-top: 200px;
 }
 #container {
     text-align: center;
@@ -133,8 +134,8 @@ body {
     font-size: 15px;
     color: black;
     text-align: center;
-    margin-left: 369px;
-    margin-right: 369px;
+    margin-left: 100px;
+    margin-right: 100px;
     color: rgba(0, 0, 0, 0.70);
     min-width: 200px;
 }
