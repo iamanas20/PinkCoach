@@ -40,7 +40,6 @@ body {
     font-size: 13px;
     font-weight: 800;
     margin-right: 30px;
-
 }
 
 
@@ -63,7 +62,7 @@ body {
 }
 
 .content {
-    height:600px;
+    height: 600px;
     margin-top: 0px;
     padding-top: 80px;
     padding-bottom: 80px;
@@ -85,14 +84,16 @@ body {
     transform: rotate(-6deg) skew(-6deg);
     background-color: rgba(126,67,170,0.3);
     position: absolute;
-    z-index:0;
+    z-index: 0;
 }
+
 #stripes {
     position: relative;
     z-index: 1;
     text-shadow: 0px 3px 5px rgba(0, 0, 0, 0.33);
     margin-top: 200px;
 }
+
 #container {
     text-align: center;
 }
@@ -109,11 +110,9 @@ body {
     box-shadow: 0px 1px 3px 0px rgba(0,0,0,0.50);
 }
 
-.btt
-{
-
-  text-align: center;
-  vertical-align: middle;
+.btt {
+    text-align: center;
+    vertical-align: middle;
 }
 
 .col-lg-12 h3 {
@@ -156,21 +155,21 @@ body {
     text-align: center;
 }
 
-.col-lg-4 p{
-  min-width: 300px;
-  padding-right: 100px;
-  padding-left: 100px;
+    .col-lg-4 p {
+        min-width: 300px;
+        padding-right: 100px;
+        padding-left: 100px;
+    }
 
-}
-.col-lg-4 h4 {
-    text-shadow: 0px 2px 1px rgba(0, 0, 0, 0.5);
-    text-align: center;
-    font-weight: 800;
-    font-size: 20px;
-    /*  padding: 5px 200px;*/
-    color: #7a4eb5;
-    /*min-width: 700px;*/
-}
+    .col-lg-4 h4 {
+        text-shadow: 0px 2px 1px rgba(0, 0, 0, 0.5);
+        text-align: center;
+        font-weight: 800;
+        font-size: 20px;
+        /*  padding: 5px 200px;*/
+        color: #7a4eb5;
+        /*min-width: 700px;*/
+    }
 
 .col-lg-12 h3 {
     font-size: 25px;
@@ -182,18 +181,35 @@ body {
 }
 
 #clientsFeedbackContainer {
-    width: 100%;
+    padding: 100px 0px 0px 0px;
 }
 
-#clientsFeedbackBox{
-    padding-top: 150px;
-    width: 40%;
-    margin-left: 30%;
+#imageAndDialogContainer {
+    margin-left: 25%;
 }
 
-#shapeSVG{
-    width: 100%;
-    fill: #ffffff;
-    stroke: rgba(0, 0, 0, 0.2);
-    stroke-width: 2px;
+    #imageAndDialogContainer h3 {
+        margin-top: 50px;
+        margin-left: 17%;
+        text-shadow: 0px 2px 5px rgba(0,0,0,0.20);
+        color: #7a4eb5;
+    }
+
+#clientsFeedbackContainer #clientsImage {
+    margin-bottom: -40px;
 }
+
+#clientsFeedbackBox #rectangle {
+    margin-top: 0px;
+    padding: 5px 5px 5px 10px;
+    margin-left: 105px;
+    width: 50%;
+    min-width: 150px;
+    border: 2px solid rgba(0, 0, 0, 0.26)
+}
+
+    #clientsFeedbackBox #rectangle h4 {
+        text-shadow: 0px 2px 5px rgba(0,0,0,0.20);
+        color: #7a4eb5;
+        font-size: 19px
+    }
