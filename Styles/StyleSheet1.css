@@ -91,7 +91,8 @@ body {
     margin-left: -5%;
     width: 108%;
     height: 350px;
-    margin-top: -45px;
+    
+    margin-top: 100px;
     padding-top: 55px;
     transform: rotate(-12deg) skew(-12deg);
     background-color: rgba(0, 0, 0, 0.04);
@@ -192,11 +193,12 @@ body {
 }
 
 #clientsFeedbackContainer {
-    padding: 100px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
 }
 
 #imageAndDialogContainer {
     margin-left: 25%;
+    margin-right: 25%;
     width: 70%;
     transform: none;
 }
